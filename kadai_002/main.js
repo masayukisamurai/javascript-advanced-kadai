@@ -112,7 +112,7 @@ const gameOver = (id) => {
   setTimeout(() => {
     untypedfield.textContent = 'タイムアップ！';
     typedfield.textContent = '';
-  }, 10);
+  });
   setTimeout(() => {
     const result = confirm(rankCheck(score));
     // OKボタンをクリックされたらリロードする
